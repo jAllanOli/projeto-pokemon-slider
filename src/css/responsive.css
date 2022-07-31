@@ -1,0 +1,36 @@
+@media (max-width: 620px) {
+    .content {
+        padding: 0 15px;
+        gap: 10px;
+    }
+
+    .btn-seta {
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .list-pokes {
+        height: 480px;
+    }
+
+    .card .img-pokemon {
+        max-height: 230px;
+    }
+
+    .card .card-heading .name {
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .card .card-heading .hp {
+        font-size: 12px;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+}

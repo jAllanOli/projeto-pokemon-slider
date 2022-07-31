@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Slider</title>
+  <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+  <header class="main-header">
+    <img src="src/imagens/pokebola.png" alt="pokebola" class="pokeball"/>
+    <h1 class="title">Carrossel de Cards</h1>
+  </header>
+  <main class="content">
+    <button class="btn-seta btn-back" id="btn-back"><img src="src/imagens/seta.png" alt="seta voltar" /></button>
+
+    <ul class="list-pokes">
+      <li class="card selected fundo-elec">
+        <div class="card-heading">
+          <h2 class="name">Pikachu</h2>
+          <p class="hp">HP 300</p>
+        </div>
+        <div>
+          <img src="src/imagens/pikachu.png" alt="pikachu" class="img-pokemon"/>
+        </div>
+        <div class="desc">
+          <h3 class="card-title">Descrição</h3>
+          <p class="text">Pikachu is a short, chubby rodent Pokémon. It is covered in yellow fur with two horizontal brown stripes on its back. It has a small mouth, long, pointed ears with black tips, and brown eyes. Each cheek is a red circle that contains a pouch for electricity storage. It has short forearms with five fingers on each paw, and its feet each have three toes. At the base of its lightning bolt-shaped tail is a patch of brown fur. A female will have a V-shaped notch at the end of its tail, which looks like the top of a heart. It is classified as a quadruped, but it has been known to stand and walk on its hind legs.</p>
+        </div>
+      </li>
+
+      <li class="card  fundo-pyro">
+        <div class="card-heading">
+          <h2 class="name">Charizard</h2>
+          <p class="hp">HP 600</p>
+        </div>
+        <div>
+          <img src="src/imagens/charizard.png" alt="charizard" class="img-pokemon"/>
+        </div>
+        <div class="desc">
+          <h3 class="card-title">Descrição</h3>
+          <p class="text">Charizard is a draconic, bipedal Pokémon. It is primarily orange with a cream underside from the chest to the tip of its tail. It has a long neck, small blue eyes, slightly raised nostrils, and two horn-like structures protruding from the back of its rectangular head. There are two fangs visible in the upper jaw when its mouth is closed. Two large wings with blue-green undersides sprout from its back, and a horn-like appendage juts out from the top of the third joint of each wing. A single wing-finger is visible through the center of each wing membrane. Charizard's arms are short and skinny compared to its robust belly, and each limb has three white claws. It has stocky legs with cream-colored soles on each of its plantigrade feet. The tip of its long, tapering tail burns with a sizable flame.</p>
+        </div>
+      </li>
+
+      <li class="card  fundo-galax">
+        <div class="card-heading">
+          <h2 class="name">Mewtwo</h2>
+          <p class="hp">HP 800</p>
+        </div>
+        <div>
+          <img src="src/imagens/mewtwo.png" alt="mewtwo" class="img-pokemon"/>
+        </div>
+        <div class="desc">
+          <h3 class="card-title">Descrição</h3>
+          <p class="text">Mewtwo is an artificial Pokémon. It is a bipedal, humanoid Pokémon with some feline features. It is primarily gray with a long, purple tail. On top of its head are two short, blunt horns, and it has purple eyes. A tube extends from the back of its skull to the top of its spine, bypassing its neck. It has a defined chest and shoulders, which resemble a breastplate. The three digits on each hand and foot have spherical tips. Its tail is thick at the base but thins before ending in a small bulb.</p>
+        </div>
+      </li>
+
+      <li class="card  fundo-psych">
+        <div class="card-heading">
+          <h2 class="name">Gardevoir</h2>
+          <p class="hp">HP 200</p>
+        </div>
+        <div>
+          <img src="src/imagens/SSBUGardevoir.webp" alt="Gardevoir" class="img-pokemon"/>
+        </div>
+        <div class="desc">
+          <h3 class="card-title">Descrição</h3>
+          <p class="text">Gardevoir is a bipedal, humanoid Pokémon whose body resembles a flowing gown. Most of its body is white, but its hair, arms, and the underside of its gown are green. Its hair curls over its face and down the sides of its head. Behind its red eyes are short spikes, resembling a masquerade mask. It has long arms with three fingers on each hand and slender white legs. A red, fin-like horn extends from its chest, and a shorter, more rounded horn extends from the back. A band of green on its chest extends to the center of the front horn and connects to its sleeve-like arms.</p>
+        </div>
+      </li>
+    </ul>
+
+    <button class="btn-seta" id="btn-foward"><img src="src/imagens/seta.png" alt="seta avançar" /></button>
+  </main>
+
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>
