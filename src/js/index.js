@@ -13,15 +13,16 @@ function showCard(cardIndex) {
 }
 
 btnAvancar.addEventListener('click', function () {
+    if (cardDisplayed >= 3) {
+        cardDisplayed = -1;
+    }
     if (cardDisplayed === cards.length - 1) return
 
     hideSelectedCard();
 
     cardDisplayed++;
     showCard(cardDisplayed);
-    if (cardDisplayed >= 2) {
-        cardDisplayed = -1;
-    }
+    
 })
 
 btnVoltar.addEventListener('click', function () {
